@@ -18,8 +18,8 @@
 import os
 import unittest
 
-from bufr import Bufr
-import load_file
+from trollbufr.bufr import Bufr
+from trollbufr import load_file
 
 test_dir = os.path.dirname(os.path.abspath(__file__))
 
